@@ -1,0 +1,273 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 26px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+
+    .first_section .title span
+    {
+        font-size: 52px;
+    }
+
+
+    .first_section .title img
+    {
+        width: 44px;
+        height: 44px;
+        margin-left: 4px;
+    }
+
+
+    .first_section .desc
+    {
+        width: 492px;
+        padding: 24px 24px 24px 80px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects
+    {
+        margin-bottom: 100px;
+        padding-top: 48px;
+    }
+
+
+    .projects .block_title
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .projects .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*---------------
+        Available
+    ---------------*/
+    .available
+    {
+        margin-bottom: 100px;
+        padding-top: 48px;
+    }
+
+
+    .available .block_title
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .available .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .available .item .name
+    {
+        font-size: 16px;
+
+        padding: 23px;
+    }
+
+
+
+    /*----------------
+        Price info
+    ----------------*/
+    .price_info
+    {
+        margin-bottom: 100px;
+        padding-top: 48px;
+    }
+
+
+    .price_info .block_title
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .price_info .data
+    {
+        width: calc(100% - 284px);
+        padding: 6px 6px 27px 6px;
+    }
+
+
+    .price_info .discount
+    {
+        font-size: 16px;
+
+        padding: 39px;
+    }
+
+
+    .price_info .discount .price
+    {
+        font-size: 60px;
+    }
+
+
+    .price_info .notice
+    {
+        font-size: 15px;
+
+        margin-top: 28px;
+        padding-left: 0;
+    }
+
+    .price_info .notice .icon + *
+    {
+        width: calc(100% - 52px);
+    }
+
+
+    .price_info .default
+    {
+        font-size: 15px;
+
+        width: 264px;
+        padding: 23px;
+    }
+
+
+    .price_info .default .price span
+    {
+        font-size: 60px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block
+    {
+        padding: 80px 0 68px;
+
+        outline-offset: -12px;
+    }
+
+    .action_block:before
+    {
+        display: none;
+    }
+
+
+    .action_block .sticker
+    {
+        top: -14px;
+
+        padding: 14px 24px;
+    }
+
+
+    .action_block .image
+    {
+        display: none;
+    }
+
+
+    .action_block .data
+    {
+        width: 100%;
+        padding: 0 32px;
+    }
+
+
+    .action_block .desc
+    {
+        font-size: 18px;
+
+        width: 380px;
+    }
+
+
+    .action_block .info .label
+    {
+        font-size: 15px;
+
+        padding: 12px 24px;
+    }
+
+
+    .action_block .info .item
+    {
+        font-size: 15px;
+
+        padding: 12px 24px 12px 36px;
+    }
+
+
+    .action_block .desc2
+    {
+        font-size: 15px;
+
+        width: 380px;
+    }
+
+
+    .action_block .bottom a
+    {
+        width: auto;
+    }
+
+
+    .action_block .bottom .exp
+    {
+        width: auto;
+        margin-top: 0;
+
+        text-align: left;
+    }
+
+    .action_block .bottom .exp br
+    {
+        display: block;
+    }
+
+
+
+    /*-----------------
+        Bottom text
+    -----------------*/
+    .bottom_text
+    {
+        margin-top: 68px;
+        margin-bottom: 68px;
+    }
+
+
+    .bottom_text img
+    {
+        width: 68px;
+        margin-bottom: 24px;
+    }
+}

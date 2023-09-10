@@ -1,0 +1,252 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 20px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-top: 48px;
+        padding-bottom: 68px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 18px;
+    }
+
+    .first_section .title span
+    {
+        font-size: 32px;
+    }
+
+
+    .first_section .title img
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+
+    .first_section .img
+    {
+        max-width: 90%;
+        margin-bottom: -48px;
+    }
+
+
+    .first_section .desc
+    {
+        padding: 20px 20px 20px 52px;
+    }
+
+    .first_section .desc:before
+    {
+        width: 28px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects
+    {
+        margin-bottom: 68px;
+        padding-top: 36px;
+
+        background-size: auto 6px;
+    }
+
+
+    .projects .block_title
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .projects .row
+    {
+        margin-left: 0;
+    }
+
+    .projects .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .projects .project .notice .icon
+    {
+        line-height: 36px;
+
+        width: 36px;
+        height: 36px;
+    }
+
+
+
+    /*---------------
+        Available
+    ---------------*/
+    .available
+    {
+        margin-bottom: 68px;
+        padding-top: 36px;
+
+        background-size: auto 6px;
+    }
+
+
+    .available .block_title
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .available .row
+    {
+        margin-left: 0;
+    }
+
+    .available .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .available .item .name
+    {
+        font-size: 14px;
+
+        padding: 23px;
+    }
+
+
+
+    /*----------------
+        Price info
+    ----------------*/
+    .price_info
+    {
+        margin-bottom: 68px;
+        padding-top: 36px;
+
+        background-size: auto 6px;
+    }
+
+
+    .price_info .block_title
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .price_info .discount .price
+    {
+        font-size: 44px;
+    }
+
+
+    .price_info .default .price span
+    {
+        font-size: 44px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block
+    {
+        padding: 60px 0 40px;
+    }
+
+
+    .action_block .sticker
+    {
+        font-size: 13px;
+    }
+
+
+    .action_block .desc
+    {
+        font-size: 15px;
+    }
+
+
+    .action_block .info .label
+    {
+        padding: 12px;
+    }
+
+
+    .action_block .info .item
+    {
+        padding: 12px;
+    }
+
+
+    .action_block .info .item span
+    {
+        display: block;
+
+        width: 100%;
+        margin-bottom: 4px;
+    }
+
+
+    .action_block .info .item img
+    {
+        max-height: 24px;
+        margin-left: 0;
+    }
+
+    .action_block .info .item img + img
+    {
+        margin-left: 20px;
+    }
+
+
+    .action_block .bottom a
+    {
+        padding: 12px 24px;
+    }
+
+
+    .action_block .bottom .exp
+    {
+        font-size: 13px;
+    }
+
+
+
+    /*-----------------
+        Bottom text
+    -----------------*/
+    .bottom_text
+    {
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+
+
+    .bottom_text img
+    {
+        width: 48px;
+    }
+}

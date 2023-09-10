@@ -1,0 +1,347 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 28px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-top: 112px;
+        padding-bottom: 100px;
+    }
+
+
+    .first_section .title span
+    {
+        font-size: 56px;
+    }
+
+
+    .first_section .title img
+    {
+        width: 48px;
+        height: 48px;
+        margin-left: 6px;
+    }
+
+
+    .first_section .img
+    {
+        margin: 24px auto -52px;
+    }
+
+
+    .first_section .desc
+    {
+        width: 500px;
+        padding: 28px 32px 28px 84px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects
+    {
+        margin-bottom: 120px;
+        padding-top: 52px;
+    }
+
+
+    .projects .block_title
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .projects .row
+    {
+        margin-left: -24px;
+    }
+
+    .projects .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-left: 24px;
+    }
+
+
+
+    /*---------------
+        Available
+    ---------------*/
+    .available
+    {
+        margin-bottom: 120px;
+        padding-top: 52px;
+    }
+
+
+    .available .block_title
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .available .row
+    {
+        margin-left: -24px;
+    }
+
+    .available .row > *
+    {
+        width: calc(25% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .available .item .name
+    {
+        font-size: 16px;
+
+        padding: 17px;
+    }
+
+
+
+    /*----------------
+        Price info
+    ----------------*/
+    .price_info
+    {
+        margin-bottom: 120px;
+        padding-top: 52px;
+    }
+
+
+    .price_info .block_title
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .price_info .data
+    {
+        width: calc(100% - 340px);
+        padding: 6px 6px 31px 6px;
+    }
+
+
+    .price_info .discount
+    {
+        font-size: 17px;
+
+        padding: 51px;
+    }
+
+
+    .price_info .discount .price
+    {
+        font-size: 68px;
+    }
+
+
+    .price_info .notice
+    {
+        font-size: 16px;
+
+        margin-top: 32px;
+        padding-right: 0;
+        padding-left: 36px;
+    }
+
+    .price_info .notice .icon + *
+    {
+        width: calc(100% - 56px);
+    }
+
+
+    .price_info .default
+    {
+        font-size: 16px;
+
+        width: 316px;
+        padding: 27px;
+    }
+
+
+    .price_info .default .desc
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .price_info .default .price span
+    {
+        font-size: 68px;
+    }
+
+    .price_info .default .price .period
+    {
+        right: 8px;
+
+        margin-top: -8px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block
+    {
+        padding: 100px 0 80px;
+
+        outline-offset: -16px;
+    }
+
+    .action_block:before
+    {
+        top: -16px;
+
+        height: calc(100% + 32px);
+    }
+
+
+    .action_block .sticker
+    {
+        top: -16px;
+
+        padding: 16px 28px;
+    }
+
+
+    .action_block .image
+    {
+        top: -16px;
+
+        width: 600px;
+        height: calc(100% + 32px);
+        margin-left: -680px;
+        padding-right: 0;
+    }
+
+
+    .action_block .data
+    {
+        width: 536px;
+        padding-right: 16px;
+    }
+
+
+    .action_block .title span
+    {
+        padding: 0 8px;
+    }
+
+
+    .action_block .desc
+    {
+        font-size: 20px;
+
+        width: 400px;
+        margin-top: 24px;
+    }
+
+
+    .action_block .info
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+    .action_block .info .label
+    {
+        font-size: 16px;
+
+        padding: 12px 20px;
+    }
+
+
+    .action_block .info .item
+    {
+        font-size: 16px;
+
+        min-height: 40px;
+        padding: 12px 20px 12px 32px;
+    }
+
+    .action_block .info .item img
+    {
+        max-height: 28px;
+    }
+
+
+    .action_block .desc2
+    {
+        font-size: 16px;
+
+        width: 400px;
+        margin-top: 24px;
+    }
+
+
+    .action_block .bottom
+    {
+        margin-top: 24px;
+    }
+
+
+    .action_block .bottom a
+    {
+        width: 100%;
+        padding: 16px 24px;
+    }
+
+
+    .action_block .bottom .exp
+    {
+        width: 100%;
+        margin-top: 12px;
+
+        text-align: center;
+    }
+
+    .action_block .bottom .exp br
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+        Bottom text
+    -----------------*/
+    .bottom_text
+    {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+
+    .bottom_text img
+    {
+        width: 80px;
+        margin-bottom: 28px;
+    }
+}

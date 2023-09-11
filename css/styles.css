@@ -118,7 +118,7 @@ input[type=number]
 -------------------*/
 :root
 {
-    --bg: #150F08;
+    --bg: #150f08;
     --scroll_width: 17px;
     --text_color: #fff;
     --font_size: 16px;
@@ -335,8 +335,9 @@ button
 {
     display: block;
 
+    width: 340px;
     max-width: 75%;
-    margin: 26px auto -60px;
+    margin: 26px auto 0;
 }
 
 
@@ -894,7 +895,9 @@ button
     font-weight: 700;
 
     padding: 0 9px;
-white-space: nowrap;
+
+    white-space: nowrap;
+
     background: #ffe70c;
 }
 
